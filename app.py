@@ -44,7 +44,7 @@ with col4:
     st.markdown(" 4 Some college, no degree (includes some community college)")
     st.markdown(" 5 Two-year associate degree from a college or university")
     st.markdown(" 6 Four-year college or university degree/Bachelor’s degree (e.g., BS, BA, AB)")
-    st.markdown(" 7 ome postgraduate or professional schooling, no postgraduate degree (e.g. some graduate school)")
+    st.markdown(" 7 Some postgraduate or professional schooling, no postgraduate degree (e.g. some graduate school)")
     st.markdown(" 8 Postgraduate or professional degree, including master’s, doctorate, medical or law degree (e.g., MA, MS, PhD, MD, JD)")
     
 
