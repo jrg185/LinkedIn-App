@@ -99,7 +99,7 @@ if st.button("Predict If LinkedIn User"):
         st.text(f"Probability that this person IS a LinkedIn user: {prob[0][1]}")
     else:
         print(st.text("Prediction: Is NOT a LinkedIn User"))
-        st.text(f"Probability that this person is NOT a LinkedIn user: {prob[0][1]}")
+        st.text(f"Probability that this person is NOT a LinkedIn user: (1-{prob[0][1]})")
     
 
 
