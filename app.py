@@ -22,7 +22,7 @@ def probs(data):
 st.image(image = "https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg")
 
 st.markdown("# LinkedIn User Prediction App")
-st.markdown("### The purpose of this app is to test a Machine Learning classification model, predicting whether or not you are a LinkedIn user based on 6 variables.  All responses are completely anonymous.")
+st.markdown("### The purpose of this app is to test a Machine Learning classification model, predicting whether or not you are a LinkedIn user based on 6 variables.  All responses are completely anonymous and your data is NOT collected to further train the model.")
 
 st.header("User Inputs")
 
