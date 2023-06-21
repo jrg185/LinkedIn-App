@@ -36,7 +36,7 @@ stratify=Y,
 test_size=.2,
 random_state=101)
 
-lr = LogisticRegression(class_weight='balanced')
+lr = LogisticRegression(class_weight='balanced', eps=float(np.finfo(np.float).eps))
 lr.fit(X_train, Y_train)
 
 y_pred = lr.predict(X_test)
